@@ -1,0 +1,53 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="bg-dark">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="container">
+            <ul class="list-group ">
+                <li class="list-group-item btn1">
+                    Quiero hacer un pedido
+                </li>
+                <li class="list-group-item btn1" onclick="window.location='./pages/ofertas/ofertas.html'">
+                    Estoy Buscando Ofertas
+                </li>
+                <li class="list-group-item btn1">
+                    Estoy Buscando Trabajo
+                </li>
+                <li class="list-group-item btn1">
+                    Estoy Buscando a una Empresa
+                </li>
+                <li class="list-group-item btn1">
+                    Quiero levantar una Queja
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
