@@ -21,10 +21,12 @@ app.use(bodyParser.urlencoded({extended:true}));
 // set the home page route
 app.get('/', function(req, res) {
 	res.render('pages/index');
+    res.end();
 });
 
 app.get('/ofertas', function(req, res) {
-	res.render('pages/ofertas');
+    res.render('pages/ofertas');
+    res.end();
 });
 
 
